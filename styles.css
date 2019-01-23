@@ -1,0 +1,24 @@
+/*
+Name: 			James Goodricke
+ID:				101082494
+Description:	Styles for the table on buying, processing and listing pages.
+*/
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid grey;
+}
+
+#buttons td {
+	border: none;
+	text-align: center;	
+	background-color: grey; 
+}
+
+th {
+	text-align: center;	
+	background-color: grey; 
+	border: 3px solid black;
+}

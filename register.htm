@@ -1,0 +1,34 @@
+<!--
+Name: 			James Goodricke
+ID:				101082494
+Description:	Customer registration page
+-->
+<HTML XMLns="http://www.w3.org/1999/xHTML">
+<head>
+	<title>Register</title>
+	<!--Get XHR Object-->
+	<script type="text/javascript" src="xhr.js"></script>
+	<!--Process Input-->
+	<script type="text/javascript" src="register.js">
+	
+	</script>
+</head>
+<body>
+	<h1>Customer Registration</h1>
+	<form>
+		Email Address: <input type="text" id="email">
+		<br />
+		First Name: <input type="text" id="firstName">
+		<br />
+		Last Name: <input type="text" id="lastName">
+		<br />
+		password: <input type="password" id="password">
+		<br />
+		re-type password: <input type="password" id="password2">
+		<br />
+		Phone Number (Optional): <input type="text" id="phone">
+		<br />
+		<input type="button" onClick="register()" value="Register">
+	</form>
+	<div id="result"></div>
+</body>
